@@ -1,3 +1,82 @@
-* {
-  background-color: blue;
+h1 {
+  color: blue;
+  background-color: bisque;
+  text-align: center;
+  border: solid;
+  height: 50px;
+  width: 450px;
+  margin-left: 20px;
+}
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.card1 {
+  justify-content: center;
+  width: 300px;
+  height: 150px;
+  border: solid;
+  border-color: brown;
+  padding: 75px;
+  margin: 20px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.answer {
+  display: flex;
+  border: 5px solid;
+  border-color: gold;
+  width: 200px;
+  text-align: center;
+  justify-content: center;
+}
+.nav-bar {
+  display: flex;
+  position: fixed;
+  border: solid;
+  width: 410px;
+  height: 30px;
+  padding: 20px;
+  margin: 5px;
+  margin-left: 20px;
+
+  background-color: rgb(232, 232, 140);
+  justify-content: space-around;
+  flex-direction: row;
+  bottom: 0px;
+}
+.home {
+  border: solid;
+  width: 50px;
+  height: 70px;
+}
+.bookmarks {
+  border: solid;
+  width: 50px;
+  height: 70px;
+}
+.profile {
+  border: solid;
+  width: 50px;
+  height: 70px;
+}
+.hashtag {
+  font-size: smaller;
+  border: solid;
+  width: 50px;
+  height: 50px;
+}
+.nav-bar img {
+  height: 30px;
+  width: 30px;
+}
+.bookmark {
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: -10px;
+  right: 20px;
 }
