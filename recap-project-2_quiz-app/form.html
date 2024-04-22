@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+    
+    <script src="createcard.js" defer></script>
+    
+    
+    
+</head>
+<body>
+    <header>
+        <h1>Quiz App</h1>
+      </header>
+    <main data-js="main"> 
+        <section>
+            <form class="form" data-js="form">
+                <label for="add-question">Your Question:</label>
+                <textarea name="add-question" id="add-question" data-js="add-question" cols="55" rows="3" maxlength="150"></textarea>
+                <p class="question-counter" data-js="question-counter"> 150 characters left </p>
+                <label for="add-answer">Your Answer:</label>
+                <textarea name="add-answer" id="add-answer" data-js="add-answer" cols="55" rows="3" maxlength="150"></textarea>
+                <p class="answer-counter" data-js="answer-counter"> 150 characters left </p>
+                <label for="add-tag">#tag:</label>
+                <input type="text" name="add-tag" id="add-tag">
+                <button type="submit" data-js="submit">Submit</button>
+                
+            </form>
+        </section>
+       
+    </main>
+</body>
+
+<footer class="footer">
+    <a href="index.html" class="footer__link">
+      <img
+        class="footer__icon"
+        src="./assets/home.png"
+        alt="home filled"
+      />
+    </a>
+    <a href="bookmark.html" class="footer__link">
+      <img
+        class="footer__icon"
+        src="./assets/bookmark_transparent.png"
+        alt="bookmark"
+      />
+      <a href="form.html" class="footer__link footer__link--active">
+        <img
+          class="footer__icon footer__icon--filled"
+          src="./assets/add_filled.png"
+          alt="form"
+        />
+    </a>
+    <a href="profile.html" class="footer__link">
+      <img class="footer__icon" src="./assets/profile.png" alt="profile" />
+    </a>
+  </footer>
+</html>
