@@ -1,0 +1,13 @@
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.question-counter,
+.answer-counter {
+  font-size: small;
+}
+
+form button {
+  width: 60px;
+  margin-top: 10px;
+}
